@@ -1,4 +1,4 @@
-header {
+.container-header {
   background-color: #F7B094;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ img {
   height: 52px;
 }
 input {
-  border: white 0 solid;
+  border: #FFFFFF 0 solid;
   border-radius: 5px 0 0 5px;
   padding: 0;
   width: 80%;
@@ -26,8 +26,7 @@ input {
 }
 
 button {
-background-color: white;
-border: white 0 solid;
+background-color: #FFFFFF 0 solid;
 border-radius: 0 5px 5px 0;
 color: #345C7D;
 font-weight: bold;
