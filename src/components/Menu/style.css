@@ -1,0 +1,15 @@
+.container-menu {
+  background-color: #F5717F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.option-menu {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+}

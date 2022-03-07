@@ -1,0 +1,53 @@
+.container-item-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 3px #F5717F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 116px;
+  height: 387px;
+  width: 256px;
+}
+
+.item-image{
+  height: 190px;
+  margin: 0;
+  width: 100%;
+}
+
+.container-item-info {
+  align-self: flex-start;
+  margin-left: 14px;
+
+}
+.item-title {
+  color: #345C7D;
+}
+
+.item-price {
+  color: #BF6B84;
+
+}
+
+.container-star {
+}
+.star {
+  height: 23px;
+  margin: 0;
+  padding-left: 7px;
+  width: 23px;
+}
+
+.container-add-item {
+  background-color:#F18D0E ;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  height: 46px;
+  margin-bottom: 17px;
+  text-align: center;
+  width: 227px;
+}
