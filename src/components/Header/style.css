@@ -26,7 +26,8 @@ input {
 }
 
 button {
-background-color: #FFFFFF 0 solid;
+background-color: #FFFFFF;
+border: #FFFFFF 0 solid;
 border-radius: 0 5px 5px 0;
 color: #345C7D;
 font-weight: bold;
