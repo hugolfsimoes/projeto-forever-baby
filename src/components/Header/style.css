@@ -16,23 +16,31 @@ img {
   width: 651px;
   height: 52px;
 }
-input {
+
+.input-search {
+  background-color: #FFFFFF;
   border: #FFFFFF 0 solid;
-  border-radius: 5px 0 0 5px;
-  padding: 0;
-  width: 80%;
-  height: 100%;
-  padding-left: 20px;
 }
 
-button {
+.input-search:focus{
+  box-shadow: none !important;
+}
+
+.button-search {
 background-color: #FFFFFF;
 border: #FFFFFF 0 solid;
-border-radius: 0 5px 5px 0;
 color: #345C7D;
 font-weight: bold;
-height: 100%;
-padding-right: 20px;
+}
+.button-search:focus{
+  box-shadow: none !important;
+  background-color: #FFFFFF;
+  color: #345C7D;
+}
+.button-search:hover{
+  background-color: #FFFFFF;
+  color: #345C7D;
+
 }
 
 .ellipse {
