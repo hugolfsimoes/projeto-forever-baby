@@ -1,0 +1,21 @@
+.container-board-products {
+  background-color: #F7B094;
+}
+
+.title-board {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 70px 0 26px 0;
+  text-align: center;
+}
+
+.container-products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+
+}
