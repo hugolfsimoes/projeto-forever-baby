@@ -2,6 +2,7 @@ import Header from './components/Header';
 import './App.css';
 import Banner from './components/Banner';
 import BoardProducts from './components/BoardProducts';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <BoardProducts />
+      <Newsletter />
     </div>
   );
 }

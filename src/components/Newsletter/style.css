@@ -1,0 +1,48 @@
+.container-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#F5717F ;
+  height: 187px;
+  width: 100%;
+}
+
+.tile-newsletter{
+  color: #FFFFFF;
+  padding-top: 36px
+}
+
+.text-newsletter {
+  color: #FFFFFF;
+}
+
+.container-register {
+  width: 651px;
+  height: 52px;
+}
+
+.input-register {
+  background-color: #FFFFFF;
+  border: #FFFFFF 0 solid;
+}
+
+.input-register:focus{
+  box-shadow: none !important;
+}
+
+.button-register {
+background-color: #FFFFFF;
+border: #FFFFFF 0 solid;
+color: #345C7D;
+font-weight: bold;
+}
+.button-register:focus{
+  box-shadow: none !important;
+  background-color: #FFFFFF;
+  color: #345C7D;
+}
+.button-register:hover{
+  background-color: #FFFFFF;
+  color: #345C7D;
+
+}
