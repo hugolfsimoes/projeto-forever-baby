@@ -18,7 +18,7 @@ export default function ItemCard({ product: { image, title, price } }) {
         <img className='star' src={starImage} alt="Avaliação muito boa" />
       </div>
       <div className='container-add-item'>
-        <p>ADICIONAR AO CARRINHO</p>
+        <p className='add-item'>ADICIONAR AO CARRINHO</p>
       </div>
     </div>
   );

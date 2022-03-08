@@ -32,17 +32,23 @@
 }
 
 .container-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
 }
 .star {
   height: 23px;
   margin: 0;
-  padding-left: 7px;
   width: 23px;
 }
 
 .container-add-item {
   background-color:#F18D0E ;
-  border-radius: 5px;
+  border-radius: 10px;
+  -moz-box-shadow:    inset 0 0 10px #FFAD4D  ;
+  -webkit-box-shadow: inset 0 0 10px #FFAD4D   ;
+  box-shadow:         inset 0 0 10px #FFAD4D;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
@@ -50,4 +56,9 @@
   margin-bottom: 17px;
   text-align: center;
   width: 227px;
+}
+
+.add-item {
+  margin: 0;
+  margin-top: 13px;
 }
