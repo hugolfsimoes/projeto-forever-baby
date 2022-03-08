@@ -15,11 +15,13 @@
 }
 
 .container-products {
-  flex:1;
+ /*  flex:1;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   height: auto;
   width: 80%;
 
